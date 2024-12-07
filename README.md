@@ -18,17 +18,18 @@ Bem-vindo ao meu repositório de estudos! Este espaço é dedicado à prática e
  - Listas encadeadas.
  - Pilhas e filas.
  - Árvores binárias e balanceadas.
- - Grafos básicos (representação e travessia).
+ - Grafos.
 
 3. Desafios de Programação
  - Problemas de lógica e algoritmos.
  - Exercícios práticos inspirados em plataformas como LeetCode.
+ - **Algoritmo de Dijkstra**: exploraremos o conceito e a implementação para encontrar o caminho mais curto em grafos ponderados.
 
 ## Tecnologias e Ferramentas
 
 - Sistema Operacional: Linux
 - Compilador: g++ (incluso no Linux)
-- IDE/Editor: Você pode utilizar qualquer editor (VS Code), mas recomendo o Code::Blocks para facilitar o desenvolvimento, principalmente se estiver em outro sistema operacional como por exemplo, o Windows.
+- IDE/Editor: Você pode utilizar qualquer editor (VS Code), mas recomendo o [Code::Blocks](https://www.codeblocks.org/) para facilitar o desenvolvimento, principalmente se estiver em outro sistema operacional como por exemplo, o Windows.
 
 ## 🧑‍🎓 Apoio nos Estudos
 
