@@ -1,48 +1,129 @@
-# Repositório de Estudos em C++
-Bem-vindo ao meu repositório de estudos! Este espaço é dedicado à prática e ao aprimoramento da **lógica de programação** e de conceitos em **estruturas de dados** utilizando a linguagem **C++**.
+# Data Structures and Algorithms in C++  🗺️
 
-## Objetivo
-1. Fortalecer os fundamentos de lógica de programação.
-2. Estudar e implementar estruturas de dados importantes, como listas, pilhas, filas, árvores e grafos.
-3. Resolver problemas práticos e desafios para consolidar o aprendizado.
+Welcome to the **Data Structures and Algorithms in C++** repository! This project aims to provide a comprehensive guide to mastering data structures and algorithms, focusing on practical implementations using C++ and the GNU Compiler Collection (g++).
 
-## Conteúdo do Repositório
+---
 
-1. Fundamentos de C++
- - Sintaxe básica, variáveis, tipos de dados, entrada/saída.
- - Estruturas condicionais e loops.
- - Funções e recursividade.
+## Objectives
+- **Learn** fundamental and advanced data structures and algorithms.
+- **Understand** the theory behind various techniques.
+- **Implement** these concepts efficiently in C++.
+- **Practice** solving problems to solidify understanding.
 
-2. Estruturas de Dados
- - Vetores e matrizes.
- - Listas encadeadas.
- - Pilhas e filas.
- - Árvores binárias e balanceadas.
- - Grafos.
+---
 
-3. Desafios de Programação
- - Problemas de lógica e algoritmos.
- - Exercícios práticos inspirados em plataformas como LeetCode.
- - **Algoritmo de Dijkstra**: exploraremos o conceito e a implementação para encontrar o caminho mais curto em grafos ponderados.
+## Repository Structure
 
-## Tecnologias e Ferramentas
-
-- Sistema Operacional: Linux
-- Compilador: g++ (incluso no Linux)
-- IDE/Editor: Você pode utilizar qualquer editor (VS Code), mas recomendo o [Code::Blocks](https://www.codeblocks.org/) para facilitar o desenvolvimento, principalmente se estiver em outro sistema operacional como por exemplo, o Windows.
-
-## 🧑‍🎓 Apoio nos Estudos
-
-Para complementar o aprendizado, recomendo assistir aos conteúdos do canal abaixo:
-
-- [Curso de C++](https://youtube.com/playlist?list=PLx4x_zx8csUjczg1qPHavU1vw1IkBcm40&si=EUGuMztPR-rQgVQ6) – Conteúdo de qualidade sobre lógica de programação e estruturas de dados em C++.
-- [Construção de Algoritmos: Fundamentos e Prática](https://youtube.com/playlist?list=PLx4x_zx8csUir5pbqRDgFbVS-2SG7JiOu&si=aB0ZHvXc_lam0Acg) - Aprenda passo a passo desde os conceitos básicos até técnicas avançadas de estruturação e resolução de problemas.
-
-### Como Usar
-- Clone o repositório para sua máquina local:
+Each topic is organized into its own folder with the following structure:
 
 ```
-  git clone https://github.com/euvitorti/base-da-programacao.git
+Topic Name/
+├── topicName.txt       # Explanation of the topic and key concepts
+├── Code/           # C++ implementations
+   ├── example.cpp # Example code for the topic
+   └── ...
 ```
 
-### Explore as pastas e arquivos para acessar o conteúdo de cada módulo de estudo.
+---
+
+## 📖 Topics Covered
+
+### 1. Fundamentals of Programming
+- Syntax of C++
+- Control Structures
+- Functions
+- Basics of Object-Oriented Programming (OOP)
+- Pseudocode
+
+### 2. Basic Data Structures
+- Arrays
+- Linked Lists
+- Stacks
+- Queues
+- Hash Tables
+
+### 3. Algorithm Complexity
+- Big O Notation
+- Big Theta (Θ) Notation
+- Big Omega (Ω) Notation
+- Time and Space Complexity Analysis
+
+### 4. Sorting Algorithms
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
+- Merge Sort
+- Quick Sort
+- Heap Sort
+
+### 5. Searching Algorithms
+- Linear Search
+- Binary Search
+
+### 6. Advanced Data Structures
+- Trees (Binary Trees, Binary Search Trees, AVL Trees, B-Trees)
+- Graphs (Directed and Undirected)
+- Graph Traversals (BFS, DFS)
+- Shortest Path Algorithms (Dijkstra, Bellman-Ford)
+- Minimum Spanning Trees (Prim, Kruskal)
+
+### 7. Problem-Solving Techniques
+- Brute Force
+- Greedy Algorithms
+- Divide and Conquer
+- Dynamic Programming
+- Backtracking
+- Recursion
+- Two Pointer Technique
+- Sliding Window Technique
+
+### 8. Practice Platforms
+- [LeetCode](https://leetcode.com/)
+- [Edabit](https://edabit.com/)
+
+---
+
+## 🛠 Tools and Requirements
+
+- **Compiler:** g++ (GNU Compiler Collection)
+- **Operating System:** Linux
+
+### Installation of g++
+If g++ is not installed on your Linux system, you can install it using the following command:
+```bash
+sudo apt update && sudo apt install g++
+```
+
+### Running the Code
+1. Navigate to the folder containing the `.cpp` file.
+2. Compile the program using g++:
+   ```bash
+   g++ example.cpp -o example.exe
+   ```
+3. Run the compiled program:
+   ```bash
+   ./example.exe
+   ```
+
+---
+
+## 🤝 Contribution Guidelines
+
+We welcome contributions! If you want to improve the code or add new topics, please:
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Create a Pull Request.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## Acknowledgments
+
+Special thanks to the creators of [roadmap.sh](https://roadmap.sh/datastructures-and-algorithms) for providing a detailed guide on this topic.
